@@ -1,0 +1,6 @@
+DMTCP is a widely used software package for checkpoint-restart: http://dmtcp.sourceforge.net.
+This code runs a process, makes a checkpoint image of it and then kills the process. The image is restored and the program runs from where it was checkpointed.
+Instructions:
+1. Run on a 64-bit machine
+2. Run make command for execution
+3. Run make clean for removing extra output files
